@@ -127,7 +127,8 @@ font-weight: 500;
     font-size: 27px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(85, 78, 78);
-    padding: 40px 350px;
+    padding: 40px 0px;
+    text-align: center;
 }
 .wrapper .section2 .section2-boxes{
     width: 100%;
@@ -248,7 +249,8 @@ font-weight: 500;
 .wrapper .section3 h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 29px;
-    padding: 30px 350px;
+    padding: 30px 0px;
+    text-align: center;
 }
 .wrapper .section3 .buy-list-features{
     width: 100%;
@@ -318,9 +320,161 @@ font-weight: 500;
 
 /* Section 3 Ends Here */
 
+.wrapper .section4{
+    margin-top:10px;
+    max-height: 1000px;
+    padding:0px 190px;
+    width: 100%;
+}
+.wrapper .section4 h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 29px;
+    padding: 30px 0;
+    text-align: center;
+}
+.wrapper .section4 .offers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+}
+
+/* Section 4 Grid Row 1 */
+
+.section4 .offers .offer-11{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #FF8A55;
+    padding: 39px 129px;
+}
+.section4 .offers .offer-12{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #fff;
+}
+.section4 .offers .offer-12 h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: #FF8A55;
+    padding: 25px 25px 15px;
+    font-weight: 500;
+}
+.section4 .offers .offer-12 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
 
 
+/* Section 4 Grid Row 2 */
 
 
+.section4 .offers .offer-21{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2;
+    grid-row-end: 3;
+    background-color: #fff;
+}
+.section4 .offers .offer-22{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 3;
+    background-color: #fed5c3;
+    padding: 39px 160px;
+}
+.section4 .offers .offer-22 img{
+    width: 250px;
+}
+.section4 .offers .offer-21 h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: #fe8a55;
+    font-weight: 500;
+    padding: 35px 45px 14px;
+
+}
+.section4 .offers .offer-21 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 0 45px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+/* Section 4 Grid Row 3 */
+
+.section4 .offers .offer-31{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end: 4;
+    background-color: #FF8A55;
+    padding: 15px 129px;
+}
+.section4 .offers .offer-31 img{
+    width: 280px;
+}
+.section4 .offers .offer-32{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end: 4;
+    background-color: #fff;
+}
+.section4 .offers .offer-32 h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: #FF8A55;
+    padding: 25px 25px 15px;
+    font-weight: 500;
+}
+.section4 .offers .offer-32 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 0 25px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+/* Section 4 Grid Row 4 */
+
+.section4 .offers .offer-41{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:4;
+    grid-row-end: 5;
+    background-color: #fff;
+}
+.section4 .offers .offer-42{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end: 5;
+    background-color: #FF8A55;
+    padding: 39px 160px;
+}
+.section4 .offers .offer-42 img{
+    width: 250px;
+}
+.section4 .offers .offer-41 h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: #FF8A55;
+    font-weight: 500;
+    padding: 35px 45px 14px;
+
+}
+.section4 .offers .offer-41 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 0 45px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+/* Section 4 Ends Here */
 
 
