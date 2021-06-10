@@ -767,4 +767,70 @@
 
  /* Section 6 Ends Here */
 
- 
+ .wrapper .faq-accordation{
+   width: 40%;
+   margin:0 auto;
+   margin-top: 10px;
+   font-family: sans-serif;
+ }
+ .faq-accordation h2{
+   color: #474747;
+   font-weight: 900;
+   font-size: 30px;
+   position: relative;
+   text-align: center;
+   padding-bottom: 20px;
+ }
+ /*h2 underline design starts
+
+ -------code starts------
+ .faq-accordation h2::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  width: 67px;
+  height: 1px;
+  background-color: hotpink;
+}
+*/
+.wrapper .faq-accordation .accordion{
+  width: 100%;
+  padding: 8px 5px;
+  border: 2px solid #6db5ff;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+.accordion .icon img{
+  margin: 0 10px 0 0;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  float: left;
+  transition: all .5s ease-in;
+}
+
+
+.accordion h5{
+  font-size: 18px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: #1f5c9a;
+}
+
+.faq-accordation .panel{
+  padding: 0 15px;
+  border-left: 1px solid #6db5ff;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .3s ease-in;
+}
+
+ /* Section 67 FAQ Ends Here */
