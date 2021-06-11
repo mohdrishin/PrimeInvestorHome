@@ -768,7 +768,7 @@
  /* Section 6 Ends Here */
 
  .wrapper .faq-accordation{
-   width: 40%;
+   width: 75%;
    margin:0 auto;
    margin-top: 10px;
    font-family: sans-serif;
@@ -796,34 +796,33 @@
 */
 .wrapper .faq-accordation .accordion{
   width: 100%;
-  padding: 8px 5px;
-  border: 2px solid #6db5ff;
+  /*padding: 0px 190px;*/
+  border-bottom: 1px solid rgb(175, 167, 167);
   cursor: pointer;
-  border-radius: 50px;
   display: flex;
+  justify-content: space-between;
   margin: 10px 0;
   align-items: center;
 }
 .accordion .icon img{
-  margin: 0 10px 0 0;
-  width:30px;
-  height:30px;
+  margin: 0 10px;
+  width:15px;
+  height:15px;
   border-radius: 50%;
   float: left;
   transition: all .5s ease-in;
 }
-
-
 .accordion h5{
   font-size: 18px;
   margin: 0;
-  padding: 3px 0 0 0;
-  font-weight: normal;
-  color: #1f5c9a;
+  padding: 8px 0 0 0;
+  font-weight: 500;
+  color: #fb4e00;
+  font-family: "Lato", Sans-serif;
 }
 
 .faq-accordation .panel{
-  padding: 0 15px;
+  padding: 0px 15px;
   border-left: 1px solid #6db5ff;
   margin-left: 25px;
   font-size: 14px;
@@ -832,5 +831,16 @@
   max-height: 0;
   transition: all .3s ease-in;
 }
+.faq-accordation .panel p{
+  padding: 10px 0;
+  font-family: "Lato", Sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 28px;
+}
 
  /* Section 67 FAQ Ends Here */
+
+
+ 
